@@ -3,33 +3,114 @@
 <head>
 	<title>Task</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<style>
+		.sbi {
+			margin-top:20px;
+		}
+	</style>
 </head>
 <body>
 
 	<div class="container-fluid">
-		<div class="card border-dark mb-3" style="max-width: 18rem;">
-  			<div class="card-header">
-  				Header
-  			</div>
-  			<div class="card-body text-dark">
-    			<h5 class="card-title">Success card title</h5>
-    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  			</div>
-  			<div class="card-footer bg-transparent border-dark text-right">
-  				Footer
-  			</div>
-		</div>
-
-		<nav aria-label="breadcrumb">
-  			<ol class="breadcrumb">
-    			<li class="breadcrumb-item active" aria-current="page">Welcome</li>
-  			</ol>
-		</nav>
 
 	</div>	
+
+	<div class="container" style="background: white">
+		<div class="row" >
+			<div class="col-8">
+
+			</div>
+			<div class="col-4">
+				<div class="card mb-4" style="max-width: 22rem;">
+					<div class="card-header bg-light">Purchase Limits</div>
+						<div class="card-body">
+							<p class="card-text">As a part of <span class="text-warning">Responsible play policy.</span> You can set the limits to the amount you add to your account in a day or month.</p>
+							<h6 style="font-weight: 600">Daily Limit Available : 2,000</h6>
+							<h6 style="font-weight: 600">Monthly Limit Available : 54,500</h6>						
+						</div>
+						<div class="card-footer bg-light text-right text-warning"><i style="font-size:24px" class="fa">&#xf105;&nbsp;</i>Update Your Limits</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="row" style="border:1px solid black">
+			<div class="col-3" style="margin-left:-14px;">
+				<ul class="list-group">
+					<li class="list-group-item">Credit Cards</li>
+					<li class="list-group-item">Debit Cards</li>
+					<li class="list-group-item">Net Banking</li>
+					<li class="list-group-item">Wallets</li>
+					<li class="list-group-item">Cash Cards</li>
+						<li class="list-group-item">Wire Transfer</li>
+					</ul>
+				</div>
+
+				<div class="col-6 ">
+					<div style="margin:20px;">Select from these popular banks</div>
+					<div>
+						<div class="row">
+							<div class="col-4">
+								<input type="radio" checked>
+								<img class="img-responsive" src="hdfc.jpeg" alt="hdfc" width="70%" height="100%">
+							</div>
+							<div class="col-4">
+								<input type="radio">
+								<img class="img-responsive" src="ici.png" alt="icici" width="70%" height="100%">
+							</div>	
+							<div class="col-4">
+								<input type="radio">
+								<img class="img-responsive" src="kotak.jpeg" alt="hdfc" width="80%" height="150%">
+							</div>
+							<div class="col-4 sbi">
+								<input type="radio">
+								<img class="img-responsive" src="sbi.png" alt="hdfc" width="70%" height="100%">
+							</div>
+							<div class="col-4 sbi">
+								<input type="radio">
+								<img class="img-responsive" src="citi.png" alt="hdfc" width="70%" height="100%">
+							</div>
+							<div class="col-4 sbi">
+								<input type="radio">
+								<img class="img-responsive" src="axis.jpeg" alt="hdfc" width="70%" height="100%">
+							</div>
+						</div>
+						<div style="display: flex;margin-top:25px;">
+							<div class="text-center" style="border-radius:50%;width:6%;height:22%;background:yellow;margin-top:5px;margin-right:10px;">or</div>
+							<div class="input-group" style="width: 50%">
+								<input type="text" class="form-control" aria-label="Text input with segmented dropdown button" placeholder="please select other bank">
+									<div class="input-group-append">
+									<button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<span class="sr-only">Toggle Dropdown</span>
+									</button>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="#">Another action</a>
+										<a class="dropdown-item" href="#">Something else here</a>
+										<div role="separator" class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">Separated link</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-3" style="padding-right:0px;margin-left:14px;">
+					<div class="card text-center bg-light">
+						<div class="card-body card-text">
+							<p>Amount to pay</p>
+							<p>Rs. 1,800</p>
+							<button class="btn btn-danger">PAY NOW</button><br />
+							<p style="margin-top: 23px;">After clicking on the <b>"PAY NOW"</b> button. you will be redirected to a secure payment gateway</p>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+	<div style="height:30px;"></div>
 
 </body>
 </html>
