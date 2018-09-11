@@ -1,0 +1,406 @@
+<html>
+    <head>
+        <title>Task</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+            body {
+                margin:0px ;
+                padding:0px;
+                background: #eee;
+            }
+            .container-fluid {
+                margin: 0px;
+                padding: 0PX;
+            }
+            .navbar {
+                height:60px;
+            }
+            .navbar-header {
+                display: flex;
+                margin-left:20px !important;
+            }
+            .navbar-brand {
+                padding:20px 15px;
+                color:white !important;
+            }
+            .navbar-right {
+               margin-right: 20px;
+               margin-top:12px;
+            }
+            .rummy {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            font-weight: 600;
+            }
+            .card {
+                text-align: center;
+                display: flex;
+                height:60px;
+                margin-top: -18px;
+                background: #FEFEFE;
+
+            }
+            .card1 {
+                color:#8C0000;
+                font-weight: 900;
+            }
+            .playing {
+                position: absolute;
+                right:10px;
+                display: flex;
+                padding:10px;
+            }
+            .p1 {
+                margin-right:35px;
+            }
+            .btn1 {
+                height:30px;
+            }
+            .play {
+                float: left;
+                margin-left: 20px;
+                margin-top:10px;
+            }
+            .fa-headphones {
+                font-size: 15px;
+                margin-right: 5px;
+            }
+            .amount {
+                display: flex;
+            }
+            .first {
+                width:800px;
+                margin-top: 20px;
+                /* background: #eee; */
+            }
+            .container {
+                background: white;
+                margin-top: 20px;
+                width:1250px;
+            }
+            .one {
+                background: #800000;
+                width:35px;
+                height:30px;
+                border-radius: 50%;
+                padding: 3px 5px;
+                position: relative;
+                margin-top: 19px;
+                margin-left: 20px;
+                margin-right: 20px;
+                padding:17px;
+            }
+            .one1 {
+                color:white;
+                position: absolute;
+                top:0px;
+                font-weight: 600;
+
+                left:13px;
+            }
+            .chips {
+                width:100px;
+                border-radius: 10px;
+                margin-left: 10px;
+                padding:20px;
+                margin-top: 10px;
+            }
+            .chips1 {
+                /* background: red; */
+                width:150px;
+                height:150px;
+                border-radius:15px;
+            }
+            .s1 {
+                display: flex;
+                margin-top:3px;
+            }
+            .atms {
+                background: #eee;
+                margin-left:15px;
+                height:310px;
+            }
+            .atms1 {
+                background: #eee;
+                margin-left:75px;
+                height:310px;
+                padding:20px;
+            }
+            .credit {
+                height:52px;
+                font-size: 15px;
+                padding:10px; 
+                border-bottom:1px solid black;  
+            }
+            .credit:hover {
+                background: red;
+                width: 310px;margin-left:-14px; 
+                color:white;
+            }
+            .active {
+                background: #FED600;
+                margin-left:-14px;
+                width:310px;
+            }
+            .bank {
+                width:100px;
+                height:50px;
+            }
+            .purchase {
+                background: #eee;
+                padding:10px;
+                margin-left:20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <p class="welcome navbar-brand">Welcome</p>
+                    <p class="rummy text-warning">Socialrummy, Regular</p>
+                  </div>
+                  <ul class="nav navbar-nav navbar-right" >
+                    <li style="margin-right: 15px;color:white;margin-top: 8px;"><p>Play Chips: <span class="rummy text-warning">352916</span></p></li>
+                    <li style="margin-right: 15px;color:white;margin-top: 8px;"><p>RealChips: <span class="rummy text-warning">0</span></p></li>
+                    <li><button type="button" class="btn btn-warning">My Account</button></li>
+                  </ul>
+                </div>
+            </nav>
+            
+            <div class="card">
+                <div class="play">
+                    <h4>Buy <span class="card1">Chips</span></h4>
+                </div>
+                <div class="playing">
+                    <p class="p1">Playing Rummy with Real Cash is <span class="card1">legal</span> in India <br>and all your trasactions are <span class="card1">1000% safe & secure</span></p>
+                    <button class="btn1" type="button"><i class="fa fa-headphones"></i>Live Help</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container"> 
+            <div class="first" style="display:flex;">
+                <div class="amount">
+                    <div class="one">
+                        <h6 class="one1">1</h6>
+                    </div><br>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div style="margin-top: 6px;">
+                                <h4 style="font-weight: 600">Select Amount</h4>
+                                <p style="margin-top: -6px;">Pick one of these best value offers or simply specify your buy-in amount and apply your bonus code</p>
+                        
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <hr style="color: black">
+                
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8">
+
+                        <div class="col-lg-3 s1">
+                                <input type="radio" style="margin-top:70px;">
+                                <div class="chips1">
+                                    <div class="text-center" style="background:#A10000;color:white;">
+                                        <h4>6700</h4>
+                                        <h3>Real Chips</h3>
+                                    </div>
+                                    <div class="text-center" style="background: #fed600;margin-top:-10px;">
+                                        <h4>for</h4>
+                                        <h3>Rs.5000</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 s1">
+                                <input type="radio" style="margin-top:70px;">
+                                <div class="chips1">
+                                        <div class="text-center" style="background:#A10000;color:white;">
+                                                <h4>2500</h4>
+                                                <h3>Real Chips</h3>
+                                            </div>
+                                            <div class="text-center" style="background: #fed600;margin-top:-10px;">
+                                                <h4>for</h4>
+                                                <h3>Rs.1400</h3>
+                                            </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 s1">
+                                <input type="radio" style="margin-top:70px;">
+                                <div class="chips1">
+                                        <div class="text-center" style="background:#A10000;color:white;">
+                                                <h4>750</h4>
+                                                <h3>Real Chips</h3>
+                                            </div>
+                                            <div class="text-center" style="background: #fed600;margin-top:-10px;">
+                                                <h4>for</h4>
+                                                <h3>Rs.500</h3>
+                                            </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 s1">
+                                    <input type="radio" style="margin-top:70px;">
+                                <div class="chips1">
+                                        <div class="text-center" style="background:#A10000;color:white;">
+                                                <h4>300</h4>
+                                                <h3>Real Chips</h3>
+                                            </div>
+                                            <div class="text-center" style="background: #fed600;margin-top:-10px;">
+                                                <h4>for</h4>
+                                                <h3>Rs.200</h3>
+                                            </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-9" style="margin-top:20px;">
+                                <div class="col-lg-6" style="display: flex">
+                                    <h5>Amount</h5>
+                                    <select name="" id="">
+                                        <option value="">Other Amount</option>
+                                        <option value="">Other Amount</option>
+                                        <option value="">Other Amount</option>
+                                        <option value="">Other Amount</option>
+                                    </select>
+                                    <br>
+                                    
+                                </div>
+                                    <div class="col-lg-6" style="display: flex">
+                                            <h5>Other Amount</h5>
+                                            <input type="text" placeholder="1000">
+                                    </div>
+                                    <div class="col-lg-6" style="display: flex">
+                                            <h5>Bonus Code:</h5>
+                                            <input type="text" placeholder="SEPSPL20">
+                                        </div>
+
+                                        
+                            </div>
+                </div>
+                <div class="col-lg-3 purchase">
+                        <p style="border-bottom:1px solid black">Purchase Limits</p>
+                        <p>As a part of Responsible Play policy. you can set the limits to the amount you add to your account in a day or month</p>
+                        <h4>Daily Limit Available: 2,000</h4>
+                        <h4>Monthly Limit Available: 54,500</h4>
+                        <p class="text-right" style="padding:12px;border-top:1px solid black">Update Your Limits</p>
+                </div>
+            </div>
+            
+
+                <div class="row amount">
+                        <div class="one">
+                            <h6 class="one1">2</h6>
+                        </div><br>
+                        <div style="margin-top: 6px;">
+                            <h4 style="font-weight: 600">Select Amount</h4>
+                            <p style="margin-top: -6px;">Pick one of these best value offers or simply specify your buy-in amount and apply your bonus code</p>
+                        </div>
+                </div>
+
+                <div class="" style="border:1px solid black;">
+                    <div class="row">
+                    
+                                    <div class="col-lg-3 atms">
+                                        <div class="credit">
+                                            <p>Credit Cards</p>
+                                        </div>
+                                        <div class="credit">
+                                            <p>Debit Cards</p>
+                                        </div>
+                                        <div class="credit active">
+                                            <p>Net Banking</p>
+                                        </div>
+                                        <div class="credit">
+                                            <p>Wallets</p>
+                                        </div>
+                                        <div class="credit">
+                                            <p>Cash Cards</p>
+                                        </div>
+                                        <div class="credit">
+                                            <p>
+                                                Wire Transfer   
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-5 ">
+                                        <p class="text-center">Select from these popular banks</p>
+                                        <div class="col-lg-4 s1">
+                                            <input type="radio">
+                                            <div class="chips">
+                                                <img class="bank" src="hdfc.jpeg">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 s1">
+                                            <input type="radio">
+                                            <div class="chips">
+                                                <img class="bank" src="icici.jpeg">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 s1">
+                                                <input type="radio">
+                                                <div class="chips">
+                                                    <img class="bank" src="citi.png">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 s1">
+                                                    <input type="radio">
+                                                    <div class="chips">
+                                                        <img class="bank" src="axis.jpeg">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 s1">
+                                                        <input type="radio">
+                                                        <div class="chips">
+                                                            <img class="bank" src="kotak.png">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 s1">
+                                                            <input type="radio">
+                                                            <div class="chips">
+                                                                <img class="bank" src="sbi.png">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row col-lg-7" style="display: flex;margin-top:20px;margin-left: 20px;">
+                                                                <div style="width: 100%; height: 20px;  text-align: center">
+                                                                        <span style="font-size: 30px;border-radius: 50%; background-color: #F3F5F6;padding:2px 10px;">or</span>
+                                                                    </div>
+                                                                    <div style="margin-top:7px;">
+                                                                        <select style="height: 30px;">
+                                                                            <option value="">Please Select Other Bank</option>
+                                                                            <option value="">Please Select Other Bank</option>
+                                                                            <option value="">Please Select Other Bank</option>
+                                                                            <option value="">Please Select Other Bank</option>
+                                                                            
+                                                                            
+                                                                        </select>
+                                                                    </div>
+                                                        </div>
+                                                        
+                                    </div>
+                                    <div class="col-lg-3 atms1 text-center">
+                                        <p>Amount to be pay</p>
+                                        <p>Rs. 1,800</p>
+                                        <button>PAY NOW</button>
+                                        <div>
+                                            After clicking on the "PAT NOW" button you will be redirected to a secure payment gateway
+                                        </div>
+                                    </div>
+                    </div>
+                </div>
+        </div>
+
+    </body>
+</html>     
